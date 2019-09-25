@@ -116,6 +116,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uKD-fM-Hxv"/>
                     </view>
+                    <connections>
+                        <outlet property="btLucio" destination="3gF-qc-DYD" id="wla-F2-UeQ"/>
+                        <outlet property="btMoira" destination="3Eb-IF-gBr" id="HKm-yb-p9a"/>
+                        <outlet property="btPharah" destination="l7W-IF-rLL" id="Hrx-Z5-X8M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="osz-wu-a4A" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="pOo-i4-2b8" userLabel="Exit" sceneMemberID="exit"/>

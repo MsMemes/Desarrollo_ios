@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imgFoto.image = imagen
+        //imgFoto.image = imagen
        
         // Do any additional setup after loading the view.
     }

@@ -14,7 +14,6 @@ class ViewControllerImagen: UIViewController {
     @IBOutlet weak var btPharah: UIButton!
     @IBOutlet weak var btMoira: UIButton!
     @IBOutlet weak var btLucio: UIButton!
-    
     var imgLucio = UIImage(named: "Lucio")
     
     override func viewDidLoad() {
