@@ -13,6 +13,8 @@
 		364B7BD4234B8F8200FBE381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364B7BD2234B8F8200FBE381 /* Main.storyboard */; };
 		364B7BD6234B8F8300FBE381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364B7BD5234B8F8300FBE381 /* Assets.xcassets */; };
 		364B7BD9234B8F8300FBE381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364B7BD7234B8F8300FBE381 /* LaunchScreen.storyboard */; };
+		364B7BE1234B926400FBE381 /* TableViewControllerCuarto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B7BE0234B926400FBE381 /* TableViewControllerCuarto.swift */; };
+		364B7BE3234B928F00FBE381 /* ViewControllerQuinto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B7BE2234B928F00FBE381 /* ViewControllerQuinto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		364B7BD5234B8F8300FBE381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		364B7BD8234B8F8300FBE381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		364B7BDA234B8F8300FBE381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364B7BE0234B926400FBE381 /* TableViewControllerCuarto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerCuarto.swift; sourceTree = "<group>"; };
+		364B7BE2234B928F00FBE381 /* ViewControllerQuinto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerQuinto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				364B7BCE234B8F8200FBE381 /* FirstViewController.swift */,
 				364B7BD0234B8F8200FBE381 /* SecondViewController.swift */,
 				364B7BD2234B8F8200FBE381 /* Main.storyboard */,
+				364B7BE2234B928F00FBE381 /* ViewControllerQuinto.swift */,
+				364B7BE0234B926400FBE381 /* TableViewControllerCuarto.swift */,
 				364B7BD5234B8F8300FBE381 /* Assets.xcassets */,
 				364B7BD7234B8F8300FBE381 /* LaunchScreen.storyboard */,
 				364B7BDA234B8F8300FBE381 /* Info.plist */,
@@ -141,6 +147,8 @@
 				364B7BD1234B8F8200FBE381 /* SecondViewController.swift in Sources */,
 				364B7BCD234B8F8200FBE381 /* AppDelegate.swift in Sources */,
 				364B7BCF234B8F8200FBE381 /* FirstViewController.swift in Sources */,
+				364B7BE1234B926400FBE381 /* TableViewControllerCuarto.swift in Sources */,
+				364B7BE3234B928F00FBE381 /* ViewControllerQuinto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

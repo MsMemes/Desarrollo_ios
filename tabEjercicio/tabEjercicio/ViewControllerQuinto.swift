@@ -9,10 +9,14 @@
 import UIKit
 
 class ViewControllerQuinto: UIViewController {
-
+    
+    @IBOutlet weak var lbLetrero: UILabel!
+    var datoMostrar : String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        lbLetrero.text = datoMostrar
         // Do any additional setup after loading the view.
     }
     
