@@ -29,6 +29,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
         let img1 = slotComp(imagen: UIImage(named: "bar"), nombre: "bar")
         let img2 = slotComp(imagen: UIImage(named: "crown"), nombre: "crown")
         let img3 = slotComp(imagen: UIImage(named: "lemon"), nombre: "lemon")
@@ -36,6 +37,13 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         let img5 = slotComp(imagen: UIImage(named: "seven"), nombre: "seven")
         
         imagenes = [img1, img2, img3, img4, img5,img1, img3, img3, img5, img1,img4, img2, img3, img4, img2,img1, img1, img2, img1, img5,img5, img2, img3, img2, img5]
+        btGo.layer.borderWidth = 2
+        btGo.layer.cornerRadius = 10
+        btGo.layer.borderColor = UIColor.purple.cgColor
+        lbwin.layer.borderWidth = 2
+        lbwin.layer.borderColor = UIColor.red.cgColor
+        lbwin.layer.backgroundColor = UIColor.yellow.cgColor
+        lbwin.layer.cornerRadius = 5
         lbwin.isHidden = true
         picker.delegate = self
         picker.dataSource = self
@@ -56,7 +64,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func randomSpin(){
-        let randomRow = Int.random(in: 1 ... imagenes.count)
+        let randomRow = Int.random(in: 1 ..< imagenes.count)
         picker.selectRow(randomRow, inComponent: counter, animated: true)
         self.pickerView(picker, didSelectRow: randomRow, inComponent: counter)
         counter += 1
